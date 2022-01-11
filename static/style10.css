@@ -1,0 +1,49 @@
+.records{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.table{
+    border-spacing: 0;
+    margin: 1rem;
+}
+
+.table__row:nth-child(even){
+    background-color:rgb(220, 218, 226);
+}
+.table__header{
+    color: blanchedalmond;
+    background-color: rgb(6, 1, 29);
+    text-align: left;
+}
+
+.table__cell{
+    padding: 8px;
+}
+
+.download{ 
+    margin-top: 4px; 
+    margin-bottom: 1px;
+    margin-right: 5%;
+    text-align: right;
+}
+a:link#download_link{
+    text-decoration: none;
+    font-weight: bold;
+}
+a:hover#download_link{
+    color: red;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:active#dowload_link{
+    color: maroon;
+    text-decoration: none;
+    font-weight: bold;
+}
+#download_link:visited {
+    color:rgb(39, 85, 2);
+    text-decoration: none;
+    font-weight: bold;
+  }
